@@ -10,7 +10,7 @@ $(function () {
         });
     }
    
-    function createTweet(input) {  //create twit function 
+    function createTweet(input) {  //create tweet function 
         var data = input[0];
         var tweetText = "Quote of the day - " + quoteText + " Author: " + quoteAuthor;
         var quoteText = $(data.content).text().trim();
